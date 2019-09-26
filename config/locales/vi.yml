@@ -1,0 +1,31 @@
+vi:
+  static_pages:
+    home:
+      title: Trang Chủ
+      home1: ứng dụng mẫu.
+      p1: Đây là trang chủ cho
+      p2: ví dụ về ứng dụng.
+    contact:
+      title: Liên Hệ
+      text1: Trang Liên Hệ
+    help:
+      title: Trợ giúp
+      guide: Để nhận được sự trợ giúp
+      p1: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+      p2: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+    about:
+      title: Về Chúng Tôi
+      p1: ""
+      p2: là một
+      p3: và
+      p4: để dạy phát triển web với
+      p5: Đây là một sample application cho hướng dẫn.
+      ss: loạt trình chiếu
+      Ru_on_Ra: Ruby on Rails
+      book: sách
+    chung:
+      title: Ví dụ đơn giản về Page tĩnh
+    array_language:
+      lgeng: Tiếng Anh
+      lgvn: Tiếng Việt
+    rort: Ruby on Rails Tutorial.
