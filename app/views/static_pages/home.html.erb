@@ -1,0 +1,10 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= link_to t("static_pages.array_language.lgeng"), locale:"en" %>
+  <%=link_to t("static_pages.array_language.lgvn"), locale:"vi" %>
+  <br>
+  <%= t ".p1" %>
+  <%= link_to t("static_pages.rort"), "https://www.railstutorial.org/" %>
+  <%= t ".p2" %>
+</p>
