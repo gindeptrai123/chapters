@@ -1,15 +1,15 @@
 <footer class="footer">
   <small>
     <%= t "footer.p1" %>
-    <%= link_to t("Ruby on Rails"), "https://www.railstutorial.org" %>
+    <%= link_to t("ror"), Settings.link1 %>
     <%= t "footer.p2" %>
-    <%= link_to t("Michael Hartl"), "http://www.michaelhartl.com/" %>
+    <%= link_to t("michael_hartl"), Settings.link3 %>
   </small>
   <nav>
     <ul>
-      <li><%= link_to t("nav.About"), about_path %></li>
-      <li><%= link_to t("nav.Contact"), contact_path %></li>
-      <li><%= link_to t("nav.News"), "http://news.railstutorial.org/" %></li>
+      <li><%= link_to t("nav.about"), about_path %></li>
+      <li><%= link_to t("nav.contact"), contact_path %></li>
+      <li><%= link_to t("nav.news"), Settings.link2 %></li>
     </ul>
   </nav>
 </footer>

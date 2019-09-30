@@ -24,8 +24,6 @@ en:
       p5: This is the sample application for the tutorial.
       book: book
       ss: screencast series
-      Ru_on_Ra: Ruby on Rails
-      book: book
     chung:
       title: Ruby on Rails Tutorial Sample App
     array_language:
@@ -37,13 +35,15 @@ en:
     p1: The
     p2: by
   nav:
-    Contact: Contact
-    Home: Home
-    Help: Help
-    About: About
-    News: News
-    Login: Login
+    contact: Contact
+    home: Home
+    help: Help
+    about: About
+    news: News
+    login: Login
   sample_app: sample app
   signup:
     p1: Sign up
     p2: This is Signup to new users
+  ror: Ruby on Rails
+  michael_hartl: Michael Hartl

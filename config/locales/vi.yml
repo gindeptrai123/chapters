@@ -23,7 +23,6 @@ vi:
       p4: để dạy phát triển web với
       p5: Đây là một sample application cho hướng dẫn.
       ss: loạt trình chiếu
-      Ru_on_Ra: Ruby on Rails
       book: sách
     chung:
       title: Ví dụ đơn giản về Page tĩnh
@@ -36,13 +35,15 @@ vi:
     p1: ""
     p2: được viết bởi
   nav:
-    Contact: Liên hệ
-    Home: Trang chủ
-    Help: Hỗ trợ
-    About: Về chúng tôi
-    News: Tin tức
-    Login: Đăng nhập
+    contact: Liên hệ
+    home: Trang chủ
+    help: Hỗ trợ
+    about: Về chúng tôi
+    news: Tin tức
+    login: Đăng nhập
   sample_app: sample app
   signup:
     p1: Đăng ký
     p2: Trang đăng ký cho người dùng mới
+  ror: Ruby on Rails
+  michael_hartl: Michael Hartl
