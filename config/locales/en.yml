@@ -24,7 +24,6 @@ en:
       p5: This is the sample application for the tutorial.
       book: book
       ss: screencast series
-      book: book
     chung:
       title: Ruby on Rails Tutorial Sample App
     array_language:
