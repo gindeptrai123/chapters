@@ -1,16 +1,16 @@
 <% provide :title, t(".title")  %>
 <h1><%= t(".title") %></h1>
 <p>
-  <%= link_to t("static_pages.array_language.lgeng"), locale:"en" %>
-  <%= link_to t("static_pages.array_language.lgvn"), locale:"vi" %>
+  <%= link_to t("static_pages.array_language.lgeng"), locale: Settings.en %>
+  <%= link_to t("static_pages.array_language.lgvn"), locale: Settings.vn %>
   <br>
   <%= t ".p1" %>
-  <%= link_to t("Ruby on Rails"),
-    "https://www.railstutorial.org" %> <%= t ".p2" %>
-  <%= link_to t(".book"), "https://www.railstutorial.org/book" %>
+  <%= link_to t("Ruby on Rails"), Settings.link2 %>
+  <%= t ".p2" %>
+  <%= link_to t(".book"), Settings.link4 %>
   <%= t ".p3" %>
-  <%= link_to t(".ss"), "http://screencasts.railstutorial.org/" %>
+  <%= link_to t(".ss"), Settings.link3 %>
   <%= t ".p4" %>
-  <%= link_to t("static_pages.about.Ru_on_Ra"), "http://rubyonrails.org/" %>
+  <%= link_to t(".Ru_on_Ra"), Settings.link1 %>
   <%= t ".p5" %>
 </p>
