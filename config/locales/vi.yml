@@ -1,13 +1,15 @@
 vi:
   static_pages:
     home:
-      title: Trang Chủ
+      title: Chào mừng đến với Trang Chủ
       home1: ứng dụng mẫu.
       p1: Đây là trang chủ cho
       p2: ví dụ về ứng dụng.
+      button: Đăng ký ngay
     contact:
       title: Liên Hệ
       text1: Trang Liên Hệ
+      p1: Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại
     help:
       title: Trợ giúp
       guide: Để nhận được sự trợ giúp
@@ -30,3 +32,19 @@ vi:
       lgvn: Tiếng Việt
     rort: Ruby on Rails Tutorial.
   base_title: "Ruby on Rails Tutorial Ứng dụng mẫu"
+  footer:
+    p1: ""
+    p2: được viết bởi
+  nav:
+    contact: Liên hệ
+    home: Trang chủ
+    help: Hỗ trợ
+    about: Về chúng tôi
+    news: Tin tức
+    login: Đăng nhập
+  sample_app: sample app
+  signup:
+    p1: Đăng ký
+    p2: Trang đăng ký cho người dùng mới
+  ror: Ruby on Rails
+  michael_hartl: Michael Hartl

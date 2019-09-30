@@ -1,13 +1,15 @@
 en:
   static_pages:
     home:
-      title: Home page
+      title: Welcome to Home page
       home1: Application
       p1: This is the home page for the
       p2: sample application.
+      button: Sign up now!
     contact:
       title: Contact
       text1: Contact Page
+      p1: Contact the Ruby on Rails Tutorial about the sample app at the
     help:
       title: Help
       guide: To get help on this sample app
@@ -22,7 +24,6 @@ en:
       p5: This is the sample application for the tutorial.
       book: book
       ss: screencast series
-      Ru_on_Ra: Ruby on Rails
       book: book
     chung:
       title: Ruby on Rails Tutorial Sample App
@@ -31,3 +32,19 @@ en:
       lgvn: Vietnamese
     rort: Ruby on Rails Tutorial.
   base_title: "Ruby on Rails Tutorial Sample App"
+  footer:
+    p1: The
+    p2: by
+  nav:
+    contact: Contact
+    home: Home
+    help: Help
+    about: About
+    news: News
+    login: Login
+  sample_app: sample app
+  signup:
+    p1: Sign up
+    p2: This is Signup to new users
+  ror: Ruby on Rails
+  michael_hartl: Michael Hartl
