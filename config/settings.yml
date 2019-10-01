@@ -8,3 +8,5 @@ validates:
   name: 50
   email: 255
   password: 6
+userhelp:
+  size: 80

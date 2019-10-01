@@ -43,7 +43,43 @@ vi:
     login: Đăng nhập
   sample_app: sample app
   signup:
+    title: Đăng ký
     p1: Đăng ký
     p2: Trang đăng ký cho người dùng mới
+    cma: Tạo tài khoản!
   ror: Ruby on Rails
   michael_hartl: Michael Hartl
+  msg:
+    welcome: Chào mừng đến với Sample App!
+    f_user_fail: Không tìm thấy người dùng!
+  erm:
+    p1: "Form có tất cả "
+  activerecord:
+    attributes:
+      user:
+        name: Tên
+        email: Địa chỉ Email
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: không được để trống!
+              too_long: quá dài!
+            email:
+              blank: không được để trống!
+              invalid : không hợp lệ !
+            password:
+              too_short: quá ngắn!
+              blank: không được để trống!
+            password_confirmation:
+              confirmation: không khớp!
+              blank: không được để trống!
+  dk:
+    activerecord:
+      attributes:
+        user:
+          name: Tên của bạn
+  error: lỗi
