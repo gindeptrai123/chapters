@@ -43,7 +43,18 @@ en:
     login: Login
   sample_app: sample app
   signup:
+    title: Sign up
     p1: Sign up
     p2: This is Signup to new users
+    cma: Creat My Account!
   ror: Ruby on Rails
   michael_hartl: Michael Hartl
+  msg:
+    welcome: Welcome to the Sample App!
+  erm:
+    p1: The form contains
+  dk:
+    activerecord:
+      attributes:
+        user:
+          name: Name
