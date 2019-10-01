@@ -9,6 +9,6 @@
     <%= link_to t("static_pages.rort"), Settings.link1 %>
     <%= t ".p2" %>
   </p>
-  <%= link_to t(".button"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".button"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.link1 %>
+<%= link_to image_tag(Settings.railspng, alt: t("rails_logo")), Settings.link1 %>

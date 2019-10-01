@@ -10,3 +10,4 @@ validates:
   password: 6
 userhelp:
   size: 80
+railspng: rails.png
