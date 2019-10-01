@@ -41,6 +41,10 @@ en:
     about: About
     news: News
     login: Login
+    logout: Log out
+    profile: Profile
+    settings: Settings
+    acount: Acount
   sample_app: sample app
   signup:
     title: Sign up
@@ -51,10 +55,12 @@ en:
   michael_hartl: Michael Hartl
   msg:
     welcome: Welcome to the Sample App!
+    f_user_fail: User not found!
   erm:
-    p1: The form contains
+    p1: "The form contains "
   dk:
     activerecord:
       attributes:
         user:
           name: Name
+  error: error

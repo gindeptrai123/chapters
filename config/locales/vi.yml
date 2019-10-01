@@ -41,6 +41,10 @@ vi:
     about: Về chúng tôi
     news: Tin tức
     login: Đăng nhập
+    logout: Đăng xuất
+    profile: Hồ sơ
+    settings: Cài đặt
+    acount: Tài khoản
   sample_app: sample app
   signup:
     title: Đăng ký
@@ -51,6 +55,7 @@ vi:
   michael_hartl: Michael Hartl
   msg:
     welcome: Chào mừng đến với Sample App!
+    f_user_fail: Không tìm thấy người dùng!
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -81,3 +86,4 @@ vi:
       attributes:
         user:
           name: Tên của bạn
+  error: lỗi
