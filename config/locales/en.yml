@@ -41,17 +41,30 @@ en:
     about: About
     news: News
     login: Login
+    logout: Log out
+    profile: Profile
+    settings: Settings
+    acount: Acount
+    users: Users
   sample_app: sample app
   signup:
     title: Sign up
     p1: Sign up
     p2: This is Signup to new users
     cma: Creat My Account!
+  session:
+    sun: Sign up Now
+    title: Log in
+    login: Log in
+    p1: New user?
+    email: Email
+    password: Password
   ror: Ruby on Rails
   michael_hartl: Michael Hartl
   msg:
     welcome: Welcome to the Sample App!
     f_user_fail: User not found!
+    email_pass_fail: Invalid email/password combination
   erm:
     p1: "The form contains "
   dk:

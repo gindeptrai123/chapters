@@ -41,17 +41,30 @@ vi:
     about: Về chúng tôi
     news: Tin tức
     login: Đăng nhập
+    logout: Đăng xuất
+    profile: Hồ sơ
+    settings: Cài đặt
+    acount: Tài khoản
+    users: Người dùng
   sample_app: sample app
   signup:
     title: Đăng ký
     p1: Đăng ký
     p2: Trang đăng ký cho người dùng mới
     cma: Tạo tài khoản!
+  session:
+    sun: Đăng ký ngay
+    title: Đăng nhập
+    login: Đăng nhập
+    p1: Người dùng mới?
+    email: Địa chỉ email
+    password: Mật khẩu
   ror: Ruby on Rails
   michael_hartl: Michael Hartl
   msg:
     welcome: Chào mừng đến với Sample App!
     f_user_fail: Không tìm thấy người dùng!
+    email_pass_fail: Sai email hoặc mật khẩu!
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -71,6 +84,7 @@ vi:
             email:
               blank: không được để trống!
               invalid : không hợp lệ !
+              taken: đã tồn tại!
             password:
               too_short: quá ngắn!
               blank: không được để trống!
@@ -83,3 +97,4 @@ vi:
         user:
           name: Tên của bạn
   error: lỗi
+  rails_logo: Rails Logo
