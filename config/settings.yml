@@ -11,3 +11,4 @@ validates:
 userhelp:
   size: 80
 railspng: rails.png
+sesssion_check: "1"
