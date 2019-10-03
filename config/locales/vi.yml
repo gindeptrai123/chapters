@@ -65,6 +65,11 @@ vi:
     welcome: Chào mừng đến với Sample App!
     f_user_fail: Không tìm thấy người dùng!
     email_pass_fail: Sai email hoặc mật khẩu!
+    profile_update_success: Cập nhật hồ sơ thành công!
+    profile_update_fail: Cập nhật hồ sơ thất bại!
+    user_delete_success: Xóa thành công!
+    user_delete_fail: Xóa thất bại!
+    pli: Hãy đăng nhập!
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -99,3 +104,12 @@ vi:
   error: lỗi
   rails_logo: Rails Logo
   rmb: Lưu mật khẩu trên máy tính
+  users:
+    title: Tất cả người dùng
+    delete: Xóa
+  cf:
+    yousure: Bạn chắc chắn chưa ?
+  edit:
+    change: Thay đổi
+    savechanges: Lưu thay đổi
+    title: Thay đổi hồ sơ

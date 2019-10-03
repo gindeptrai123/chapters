@@ -4,6 +4,7 @@ link1: https://www.railstutorial.org/
 link2: ttps://www.michaelhartl.com/
 link3: https://www.railstutorial.org/help
 link4: https://www.railstutorial.org/book
+link6: http://gravatar.com/emails
 validates:
   name: 50
   email: 255
@@ -11,4 +12,5 @@ validates:
 userhelp:
   size: 80
 railspng: rails.png
-sesssion_check: "1"
+session_check: "1"
+grv: 50
