@@ -70,6 +70,13 @@ en:
     user_delete_success: User deleted
     user_delete_fail: User deleted failed
     pli: Please Login!
+    acount_active_success: Account activated!
+    acount_active_fail: Invalid activation link
+    check_active: Please check your email to activate your account!
+    acount_active: Account activation
+    acount_not_active: Account not activated
+    acount_done_active: Acount had activated!
+    check_your_email: Check your email for the activation link
   erm:
     p1: "The form contains "
   dk:
@@ -88,3 +95,8 @@ en:
     change: Change
     savechanges: Save Changes
     title: Edit Changes
+  acount_active:
+    active: Active
+    title: Sampple App
+    p1: "Welcome to Sampple App. Please active your acount by this link:"
+    hi: Hi

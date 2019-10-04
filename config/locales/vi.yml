@@ -70,6 +70,13 @@ vi:
     user_delete_success: Xóa thành công!
     user_delete_fail: Xóa thất bại!
     pli: Hãy đăng nhập!
+    acount_active_success: Kích hoạt tài khoản thành công!
+    acount_active_fail: Link kích hoạt không hợp lệ!
+    check_active: Hãy check email của bạn để kích hoạt tài khoản!
+    acount_active: Kích hoạt tài khoản!
+    acount_done_active: Tài khoản này đã được kích hoạt!
+    acount_not_active: Tài khoản không thể kích hoạt.
+    check_your_email: Kiểm tra email của bạn để kích hoạt tài khoản!
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -113,3 +120,8 @@ vi:
     change: Thay đổi
     savechanges: Lưu thay đổi
     title: Thay đổi hồ sơ
+  acount_active:
+    active: Kích hoạt
+    title: Ứng dụng mẫu
+    p1: "Chào mừng đến với ứng dụng mẫu. Kích hoạt tài khoản của bạn bằng link:"
+    hi: Chào
