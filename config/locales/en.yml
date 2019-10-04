@@ -65,6 +65,11 @@ en:
     welcome: Welcome to the Sample App!
     f_user_fail: User not found!
     email_pass_fail: Invalid email/password combination
+    profile_update_success : Profile updated
+    profile_update_fail: Profile updated failed
+    user_delete_success: User deleted
+    user_delete_fail: User deleted failed
+    pli: Please Login!
   erm:
     p1: "The form contains "
   dk:
@@ -74,3 +79,12 @@ en:
           name: Name
   error: error
   rmb: Remember me on this computer
+  users:
+    title: All users
+    delete: Delete
+  cf:
+    yousure: You sure?
+  edit:
+    change: Change
+    savechanges: Save Changes
+    title: Edit Changes
