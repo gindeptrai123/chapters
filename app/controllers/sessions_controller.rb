@@ -5,12 +5,17 @@ class SessionsController < ApplicationController
 
   def create
     log_in @user
-    if params[:session][:remember_me] == Settings.session_check
-      remember @user
+    if @user.activated?
+      if params[:session][:remember_me] == Settings.session_check
+        remember @user
+      else
+        forget @user
+      end
+      redirect_back_or @user
     else
-      forget @user
+      flash[:warning] = t("msg.acount_not_active") + t("msg.check_your_email")
+      redirect_to root_url
     end
-    redirect_to @user
   end
 
   def destroy
