@@ -6,6 +6,7 @@ en:
       p1: This is the home page for the
       p2: sample application.
       button: Sign up now!
+      micropost_feed: Micropost Feed
     contact:
       title: Contact
       text1: Contact Page
@@ -82,6 +83,8 @@ en:
     reset_pass_done: Password has been reset.
     email_not_found: Email address not found!
     pass_has_expire: Password reset has expired.
+    micropost_create: Micropost created!
+    micropost_delete: micropost delete!
   erm:
     p1: "The form contains "
   dk:
@@ -114,3 +117,12 @@ en:
   forgot_password:
     title: Forgot Password
     submit: submit
+  micropost:
+    p1: Posted
+    p2: ago.
+    delete: delete
+    confirm: You sure?
+    placeholder: Compose new micropost...
+    submit: post
+    view_my_profile: view my profile
+    micropost: micropost

@@ -6,6 +6,7 @@ vi:
       p1: Đây là trang chủ cho
       p2: ví dụ về ứng dụng.
       button: Đăng ký ngay
+      micropost_feed: Danh sách bài đăng
     contact:
       title: Liên Hệ
       text1: Trang Liên Hệ
@@ -82,6 +83,8 @@ vi:
     reset_pass_done: Mật khẩu đã được đặt lại
     email_not_found: Địa chỉ email không được tìm thấy
     pass_has_expire: Mật khẩu đặt lại đã hết hạn!
+    micropost_create: Bài đăng đã được tạo
+    micropost_delete: Bài đăng đã xóa
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -139,3 +142,20 @@ vi:
   forgot_password:
     title: Quên mật khẩu
     submit: Gửi
+  micropost:
+    p1: Được đăng
+    p2: trước.
+    delete: Xóa
+    confirm: Bạn chắc chứ?
+    placeholder: Viết bài đăng mới
+    submit: Gửi
+    view_my_profile: Xem hồ sơ của tôi
+    micropost: bài đăng
+  datetime:
+    distance_in_words:
+      less_than_x_minutes: khoảng %{count} phút
+      x_minutes: " %{count} phút"
+      about_x_hours: khoảng %{count} giờ
+      about_x_months: khoảng %{count} tháng
+      about_x_years: khoảng %{count} năm
+      almost_x_years: hơn %{count} năm

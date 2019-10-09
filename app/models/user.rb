@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   before_save{email.downcase!}
   before_create :create_activation_digest
@@ -9,7 +10,6 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: {minimum:
     Settings.validates.password}, allow_nil: true
-
   validates :password, presence: true, length: {minimum:
     Settings.validates.password}, on: :update_password
 
@@ -18,7 +18,7 @@ class User < ApplicationRecord
       if cost = ActiveModel::SecurePassword.min_cost
         BCrypt::Engine::MIN_COST
       else
-        BCrypt::Engine.cost
+        BCrypt::Engine.costf
       end
       BCrypt::Password.create string, cost: cost
     end
@@ -62,7 +62,11 @@ class User < ApplicationRecord
   end
 
   def password_reset_expired?
-    reset_sent_at < Settings.password_expire.hours.ago
+    reset_sent_at < 2.hours.ago
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private
