@@ -14,7 +14,7 @@ class PasswordResetsController < ApplicationController
     redirect_to root_url
   end
 
- def update
+  def update
     @user.assign_attributes user_params
     if @user.save(context: :update_password)
       log_in @user

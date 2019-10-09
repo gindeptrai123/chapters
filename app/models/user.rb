@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
+  has_many :microposts, dependent: :destroy
   before_save{email.downcase!}
   before_create :create_activation_digest
   validates :name, presence: true, length: {maximum: Settings.validates.name}
@@ -9,7 +10,6 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length: {minimum:
     Settings.validates.password}, allow_nil: true
-
   validates :password, presence: true, length: {minimum:
     Settings.validates.password}, on: :update_password
 
@@ -63,6 +63,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password_expire.hours.ago
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   private
