@@ -14,3 +14,4 @@ userhelp:
 railspng: rails.png
 session_check: "1"
 grv: 50
+password_expire: 2

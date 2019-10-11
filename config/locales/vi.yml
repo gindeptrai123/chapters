@@ -77,6 +77,11 @@ vi:
     acount_done_active: Tài khoản này đã được kích hoạt!
     acount_not_active: Tài khoản không thể kích hoạt.
     check_your_email: Kiểm tra email của bạn để kích hoạt tài khoản!
+    info_email: Email đã được gửi cùng với hướng dẫn đặt lại mật khẩu
+    cant_be_empty: không được để trống
+    reset_pass_done: Mật khẩu đã được đặt lại
+    email_not_found: Địa chỉ email không được tìm thấy
+    pass_has_expire: Mật khẩu đặt lại đã hết hạn!
   erm:
     p1: "Form có tất cả "
   activerecord:
@@ -125,3 +130,12 @@ vi:
     title: Ứng dụng mẫu
     p1: "Chào mừng đến với ứng dụng mẫu. Kích hoạt tài khoản của bạn bằng link:"
     hi: Chào
+  password_reset:
+    title: Đặt lại mật khẩu
+    p1: Để đặt lại mật khẩu click vào link bên dưới
+    p2: Link này có hiệu lực trong 2 giờ.
+    p3: Nếu bạn không phải là người gửi yêu cầu đổi mật khẩu, hãy bỏ qua tin nhắn này.
+    update_password: Cập nhật mật khẩu
+  forgot_password:
+    title: Quên mật khẩu
+    submit: Gửi
