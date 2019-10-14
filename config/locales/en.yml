@@ -126,3 +126,8 @@ en:
     submit: post
     view_my_profile: view my profile
     micropost: micropost
+    microposts: microposts
+  follow: Follow
+  unfollow: Unfollow
+  following: Following
+  followers: Followers
