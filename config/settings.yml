@@ -15,3 +15,5 @@ railspng: rails.png
 session_check: "1"
 grv: 50
 password_expire: 2
+content_micropost_maxlength: 140
+micropost_ava: 50
